@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background-color: aqua;
+}
+
+#phone {
+    width: 300px; /* Larghezza di un iPhone 11 */
+    height: 550px; /* Altezza di un iPhone 11 */
+    background-color: #000; /* Colore nero di sfondo */
+    border-radius: 20px; /* Bordi arrotondati */
+    padding: 20px; /* Aggiungi spazio interno, se necessario */
+    margin: auto; /* Centra il div orizzontalmente */
+    margin-top: 50px; /* Aggiungi margine superiore, se necessario */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+}
+
+#results-div {
+    background-color: rgb(194, 225, 252);
+    height: 350px;
+    margin-top: 10px;
+    color: black;
+    padding: 1px;
+    overflow-y: auto; /* Aggiunge una scrollbar verticale se il contenuto supera l'altezza massima */
+    border: 1px solid #000; /* Aggiunge un bordo per renderlo visibile */
+    padding: 10px; /* Aggiunge spazio interno, se necessario */
+}
+
+.valid {
+    color: green;
+}
+
+.invalid {
+    color: red
+}
+
+button {
+    margin-top: 10px;
+    height: 30px;
+    width: 148px;
+    background-color: rgb(194, 225, 252);
+}
